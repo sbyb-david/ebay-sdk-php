@@ -45,6 +45,12 @@ class SearchInquiriesRestResponse extends \DTS\eBaySDK\PostOrder\Types\InquirySe
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'
+        ],
+        'creationDate' => [
+            'type' => 'string',
+            'repeatable' => true,
+            'attribute' => false,
+            'elementName' => 'creationDate'
         ]
     ];
 
