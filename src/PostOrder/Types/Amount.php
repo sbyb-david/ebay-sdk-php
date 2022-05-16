@@ -46,6 +46,12 @@ class Amount extends \DTS\eBaySDK\Types\BaseType
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'value'
+        ],
+        'creationDate' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'creationDate'
         ]
     ];
 
