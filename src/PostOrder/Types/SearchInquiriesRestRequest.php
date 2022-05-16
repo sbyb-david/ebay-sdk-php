@@ -88,6 +88,12 @@ class SearchInquiriesRestRequest extends \DTS\eBaySDK\Types\BaseType
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'transaction_id'
+        ],
+        'CreationDate' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'CreationDate'
         ]
     ];
 
