@@ -95,6 +95,12 @@ class SearchCancellationsRestRequest extends \DTS\eBaySDK\Types\BaseType
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'transaction_id'
+        ],
+        'creationDate' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'creationDate'
         ]
     ];
 
