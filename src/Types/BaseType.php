@@ -461,7 +461,7 @@ class BaseType implements JmesPathableObjectInterface
      */
     private static function ensurePropertyExists($class, $name)
     {
-        if (name == 'creationDate'){ 
+        if ($name == 'creationDate'){ 
             return;
         } 
         if (!array_key_exists($name, self::$properties[$class])) {
