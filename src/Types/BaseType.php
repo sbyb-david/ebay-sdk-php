@@ -306,10 +306,11 @@ class BaseType implements JmesPathableObjectInterface
      */
     private function set($class, $name, $value)
     {
-        self::ensurePropertyExists($class, $name);
-        self::ensurePropertyType($class, $name, $value);
-
-        $this->setValue($class, $name, $value);
+        if($name!='creationDate'){
+            self::ensurePropertyExists($class, $name);
+            self::ensurePropertyType($class, $name, $value);
+            $this->setValue($class, $name, $value);
+        }
     }
 
     /**
