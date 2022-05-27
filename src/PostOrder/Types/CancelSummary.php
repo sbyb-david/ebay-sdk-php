@@ -130,6 +130,12 @@ class CancelSummary extends \DTS\eBaySDK\Types\BaseType
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'cancelStatus'
+        ],
+        'creationDate' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'creationDate'
         ]
     ];
 
